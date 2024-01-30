@@ -4,7 +4,7 @@ import useToggle from "./useToggle";
 const ToggleComponent = () => {
   const [value, toggleValue] = useToggle(false);
   return (
-    <div className="flex justify-center w-full flex-col items-center gap-4">
+    <>
       <div className="text-xl underline underline-offset-8">
         Use Toggle Hook
       </div>
@@ -27,7 +27,7 @@ const ToggleComponent = () => {
       >
         Set to False
       </button>
-    </div>
+    </>
   );
 };
 
