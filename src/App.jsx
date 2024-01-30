@@ -2,7 +2,8 @@
 // import TimeoutComponent from "./components/2-useTimeout/TimeoutComponent";
 // import DebounceComponent from "./components/3-useDebounce/DebounceComponent";
 // import StorageComponent from "./components/4-useStorage/StorageComponent";
-import AsyncComponent from "./components/5-useAsync/AsyncComponent";
+// import AsyncComponent from "./components/5-useAsync/AsyncComponent";
+import FetchComponent from "./components/6-useFetch/FetchComponent";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         Collection of Custom React Hooks
       </div>
       <div className="flex justify-center w-full flex-col items-center gap-4">
-        <AsyncComponent />
+        <FetchComponent />
       </div>
     </div>
   );
