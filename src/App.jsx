@@ -1,6 +1,7 @@
 // import ToggleComponent from "./components/1-useToggle/ToggleComponent";
 // import TimeoutComponent from "./components/2-useTimeout/TimeoutComponent";
-import DebounceComponent from "./components/3-useDebounce/DebounceComponent";
+// import DebounceComponent from "./components/3-useDebounce/DebounceComponent";
+import StorageComponent from "./components/4-useStorage/StorageComponent";
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
         Collection of Custom React Hooks
       </div>
       <div className="flex justify-center w-full flex-col items-center gap-4">
-        <DebounceComponent />
+        <StorageComponent />
       </div>
     </div>
   );
